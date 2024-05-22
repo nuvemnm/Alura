@@ -1,5 +1,5 @@
 console.log("execute");
-let idade = 25;
+let idade = 0;
 idade ++;
 console.log(idade);
 
@@ -16,3 +16,15 @@ lista.push("força");
 
 console.log(lista.splice(2,2));
 console.log(lista);
+
+while(idade <= 18){
+    console.log("idade: " + idade);
+    if(idade == 4){
+        break;
+    }
+    idade++;
+}
+
+for(let i = 0; i < 10; i ++){
+    console.log(i);
+}
